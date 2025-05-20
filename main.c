@@ -183,7 +183,7 @@ void vDisplayOledTask(){
 
         }
         
-        vTaskDelay(pdMS_TO_TICKS(10)); // Delay de 100ms por loop
+        vTaskDelay(pdMS_TO_TICKS(10)); // Delay de 10ms por loop
 
     }
 
