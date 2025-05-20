@@ -279,7 +279,7 @@ int main()
     xTaskCreate(vDisplayOledTask, "Display Oled Task", 512, NULL, 1, NULL);
     xTaskCreate(vMatrizLedTask, "Matrix Leds Task", 512, NULL, 1, NULL);
     xTaskCreate(vLedRGBTask, "Leds RBG Task", 256, NULL, 1, NULL);
-    xTaskCreate(vBuzzerTask, "Buzzer Task", 256, NULL, 2, NULL);
+    xTaskCreate(vBuzzerTask, "Buzzer Task", 256, NULL, 1, NULL);
     
     // Inicia o agendador
     vTaskStartScheduler();
