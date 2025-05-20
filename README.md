@@ -2,9 +2,6 @@
 
 Um sistema embarcado para monitoramento de enchentes utilizando a plataforma RP2040 (BitDog Lab) com FreeRTOS, que monitora **nível de água** e **volume de chuva** simulados por um joystick. O projeto alterna automaticamente entre **Modo Normal** e **Modo Alerta**, oferecendo sinalizações visuais (LEDs RGB, matriz de LEDs e display OLED) e **alertas sonoros diferenciados** para acessibilidade. O botão do joystick ativa o modo BOOTSEL para atualizações.  
 
-## Demonstração em Vídeo
-[![Link para Vídeo de Demonstração](https://via.placeholder.com/400x300.png/000000/FFFFFF?text=V%C3%ADdeo+Demonstra%C3%A7%C3%A3o)](https://exemplo.com)
-
 ## Funcionalidades Principais
 
 - **Modo Normal**  
